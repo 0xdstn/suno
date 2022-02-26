@@ -1,0 +1,18 @@
+{
+  "name": "suno",
+  "short_name": "suno",
+  "description": "An impermanent morning page writing tool",
+  "icons": [
+    {
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/suno/",
+  "scope": "/suno/",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}
