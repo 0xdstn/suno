@@ -1,10 +1,13 @@
-const cacheName = 'suno-v1';
+const cacheName = 'suno-v2';
 const appFiles = [
-  '/suno/',
-  '/suno/index.html',
-  '/suno/main.js',
-  '/suno/main.css',
-  '/suno/icon512.png'
+  '/~dustin/suno/',
+  '/~dustin/suno/index.html',
+  '/~dustin/suno/main.js',
+  '/~dustin/suno/main.css',
+  '/~dustin/suno/icon-32.png',
+  '/~dustin/suno/icon-144.png',
+  '/~dustin/suno/icon-192.png',
+  '/~dustin/suno/icon-512.png'
 ];
 
 self.addEventListener('install', (e) => {
@@ -36,4 +39,3 @@ self.addEventListener('activate', (e) => {
     }))
   }));
 });
-
