@@ -1,83 +1,74 @@
 body,html {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 body {
-  display: flex;
-  font-family: 'Merriweather', serif;  
-  font-size: 18px;
-  flex-direction: column;
+    display: flex;
+    font-family: 'Merriweather', serif;  
+    font-size: 18px;
+    flex-direction: column;
 }
 
 header {
-  border-bottom: solid 1px #ccc;
-  font-style: italic;
-  letter-spacing: 1px;
-  padding: 1em;
+    border-bottom: solid 1px #ccc;
+    display: flex;
+    font-style: italic;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    padding: 1em;
 }
 
 header span {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 header a {
-  margin-left: .75em;
+    margin-left: .75em;
 }
 
 a {
-  color: #00aaee;
-  text-decoration: none;
-  transition: all .3s;
+    color: #00aaee;
+    text-decoration: none;
+    transition: all .3s;
 }
 
 a:hover {
-  color: #000;
+    color: #000;
 }
 
 section {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  padding: 1em;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 1em;
 }
 
 #welcome {
-  color: #666;
-  font-style: italic;
-  font-weight: 300;
-  margin-top: 0;
-  line-height: 1.5em;
+    color: #666;
+    font-style: italic;
+    font-weight: 300;
+    margin-top: 0;
+    line-height: 1.5em;
 }
 
 textarea {
-  border: 0;
-  color: #333;
-  flex-grow: 1;
-  font-family: 'Merriweather', serif;  
-  font-size: 1em;
-  outline: none;
-  padding-bottom: 10px;
-  width: 100%;
+    border: 0;
+    color: #333;
+    flex-grow: 1;
+    font-family: 'Merriweather', serif;  
+    font-size: 1em;
+    outline: none;
+    width: 100%;
 }
 
 #controls {
-  padding-top: .5em;
-  position: relative;
+    padding-top: .5em;
+    position: relative;
 }
 
-#controls:before {
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: -20px;
-  height: 20px;
-}
-
-#count {
-  color: #666;
+#counter {
+    color: #666;
 }

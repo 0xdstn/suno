@@ -1,4 +1,4 @@
-const cacheName = 'suno-v2';
+const cacheName = 'suno-v6';
 const appFiles = [
   '/~dustin/suno/',
   '/~dustin/suno/index.html',
