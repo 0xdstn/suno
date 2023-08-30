@@ -24,8 +24,8 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/~dustin/suno/",
-  "scope": "/~dustin/suno/",
+  "start_url": "/suno/",
+  "scope": "/suno/",
   "display": "standalone",
   "theme_color": "#ffffff",
   "background_color": "#ffffff"
